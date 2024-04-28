@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="./gallery.css">
+	<script src = "./gallery.js"></script>
+</head>
+<body onload = "greeting()">
+	
+	<Header><h1>Hello</h1></Header>
+
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	
+	<img class = "preview" alt = "Queen 1" src = "./images/queen1.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()" tabindex = 1>
+	
+	<img class = "preview" alt = "Queen 2" src = "./images/queen2.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()" tabindex = 2>
+	
+	<img class = "preview" alt = "Queen 3" src = "./images/queen3.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()" tabindex = 3>
+
+	<img class = "preview" alt = "Queen 4" src = "./images/queen4.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()" tabindex = 4>
+	
+	<img class = "preview" alt = "Queen 5" src = "./images/queen5.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()" tabindex = 5>
+	
+	<img class = "preview" alt = "Queen 6" src = "./images/queen6.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus = "upDate(this)" onblur = "unDo()" tabindex = 6>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+body{
+    margin: 2%;
+    border: 0.1vw solid white;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+h1 {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#image{
+    line-height: 600px;
+    width: 1000px;
+    height: 600px;
+    border: 0.2vw solid white;
+    border-radius: 5px;
+    margin:0.2vw auto;
+    background-color: lightgray;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color: rgb(227, 20, 158);
+    text-align: center;
+    background-size: 100%;
+    margin-bottom:25px;
+    font-size: 170%;
+    font-weight: bolder;
+}
+
+.preview{
+    width:10%;
+    margin-left:17%;
+    border: 0.2vw solid white;
+    border-radius: 5px;
+}
+
+img{
+    width:95%;
+}
